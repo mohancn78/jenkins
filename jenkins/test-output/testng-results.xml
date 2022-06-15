@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[hello python]]>
+    </line>
+    <line>
+      <![CDATA[hello .net]]>
+    </line>
+    <line>
+      <![CDATA[hello aws]]>
+    </line>
+    <line>
+      <![CDATA[hello java]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="141" started-at="2022-06-15T06:48:50Z" finished-at="2022-06-15T06:48:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="141" started-at="2022-06-15T06:48:50Z" finished-at="2022-06-15T06:48:50Z">
+      <class name="jenkins.Test">
+        <test-method status="PASS" signature="first()[pri:0, instance:jenkins.Test@30b7c004]" name="first" duration-ms="0" started-at="2022-06-15T12:18:50Z" finished-at="2022-06-15T12:18:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hello java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- jenkins.Test -->
+      <class name="jenkins.Test3">
+        <test-method status="PASS" signature="four()[pri:0, instance:jenkins.Test3@7b227d8d]" name="four" duration-ms="32" started-at="2022-06-15T12:18:50Z" finished-at="2022-06-15T12:18:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hello python]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- four -->
+      </class> <!-- jenkins.Test3 -->
+      <class name="jenkins.Test2">
+        <test-method status="PASS" signature="third()[pri:0, instance:jenkins.Test2@65d6b83b]" name="third" duration-ms="0" started-at="2022-06-15T12:18:50Z" finished-at="2022-06-15T12:18:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hello .net]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- jenkins.Test2 -->
+      <class name="jenkins.Test1">
+        <test-method status="PASS" signature="second()[pri:0, instance:jenkins.Test1@d706f19]" name="second" duration-ms="0" started-at="2022-06-15T12:18:50Z" finished-at="2022-06-15T12:18:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hello aws]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- jenkins.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
